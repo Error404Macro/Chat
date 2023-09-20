@@ -51,7 +51,7 @@ public class BotClient extends Client {
             }
             if(format != null){
                 String answer = new SimpleDateFormat(format).format(Calendar.getInstance().getTime());
-                BotClient.this.sendTextMessage("По запросу " + split[0] + answer);
+                BotClient.this.sendTextMessage("По запросу  " + split[0] + answer);
             }
         }
     }
